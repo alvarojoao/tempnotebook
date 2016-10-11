@@ -1,0 +1,20 @@
+docker pull kaixhin/theano
+
+docker run -it kaixhin/theano bash
+
+ docker-machine env default  #or run as administrator the quick start 
+
+
+
+ pip install pandas
+ sudo apt-get install libpng-dev
+ apt-get install libfreetype6-dev
+ sudo apt-get install libfreetype6-dev libxft-dev
+ pip install matplotlib
+ pip install scikit-learn
+ pip install git+https://github.com/dnouri/nolearn.git@master#egg=nolearn==0.7.git
+ pip install lasagne
+
+ docker ps
+ docker commit <ps.id> cnnet
+ 
